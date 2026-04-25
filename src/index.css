@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(25px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+body {
+  background: #020617;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.text-info {
+  color: #00d4ff;
+}
+
+.section-tag {
+  @apply text-[#00d4ff] bg-[#0f172a] px-4 py-1 rounded-full text-sm inline-block mb-4;
+}
+
+.card {
+  @apply bg-[#0f172a] rounded-xl p-5 transition-all duration-300;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 212, 255, 0.15);
+}
+
+.btn-primary {
+  @apply bg-linear-to-r from-cyan-400 to-sky-500 px-5 py-2 rounded text-black font-semibold transition;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.5);
+}
