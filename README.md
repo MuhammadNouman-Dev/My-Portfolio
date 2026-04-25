@@ -7,7 +7,7 @@ This is my personal portfolio website where I showcase my skills, projects, and 
 ---
 
 ## 🚀 Live Demo
-🔗 https://your-portfolio-link.netlify.app
+🔗 https://noumandevportfolio.netlify.app/
 
 ---
 
