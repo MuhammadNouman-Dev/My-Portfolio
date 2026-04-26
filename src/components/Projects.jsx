@@ -15,30 +15,34 @@ export default function Projects() {
 
                 <div className="grid lg:grid-cols-2 gap-6">
 
-                    {/* PROJECT 1 */}
                     <div className="bg-[#0f172a] rounded-xl overflow-hidden transition hover:scale-[1.02] hover:shadow-[0_10px_30px_rgba(0,212,255,0.15)]">
 
-                        <img
-                            src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28"
-                            className="w-full h-62.5 object-cover"
-                            alt="project1"
-                        />
+                        <a href="https://noumandevnotes.netlify.app/"
+                            target="_blank"
+                        >
+                            <img
+                                src="/notes.png"
+                                className="w-full h-62.5 object-cover"
+                                alt="project1"
+                            />
 
-                        <div className="p-5">
 
-                            <h5 className="text-lg font-semibold">E-Commerce Website</h5>
+                            <div className="p-5">
 
-                            <p className="text-gray-400 mt-2">
-                                A Shopping Platform for Men & Women.
-                            </p>
+                                <h5 className="text-lg font-semibold">Notes Web App</h5>
 
-                            <div className="mt-3 flex gap-2 flex-wrap">
-                                <span className="bg-gray-700 px-3 py-1 text-sm rounded">React</span>
-                                <span className="bg-gray-700 px-3 py-1 text-sm rounded">Node.js</span>
-                                <span className="bg-gray-700 px-3 py-1 text-sm rounded">OpenAI</span>
+                                <p className="text-gray-400 mt-2">
+                                    User can save and delete his tasks / notes.
+                                </p>
+
+                                <div className="mt-3 flex gap-2 flex-wrap">
+                                    <span className="bg-gray-700 px-3 py-1 text-sm rounded">React Js</span>
+                                    <span className="bg-gray-700 px-3 py-1 text-sm rounded">Local Storage</span>
+                                    <span className="bg-gray-700 px-3 py-1 text-sm rounded">Hooks</span>
+                                </div>
+
                             </div>
-
-                        </div>
+                        </a>
                     </div>
 
                     <div className="bg-[#0f172a] rounded-xl overflow-hidden transition hover:scale-[1.02] hover:shadow-[0_10px_30px_rgba(0,212,255,0.15)]">
